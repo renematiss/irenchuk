@@ -12,14 +12,14 @@ li {
     margin-left: 24px;
 }
 
-#ShadowHand {
+#shadowHand {
 
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
 }
 
-.Shadow {
+.shadow {
     display: flex;
     text-align: center;
     font-family: 'Inter';
