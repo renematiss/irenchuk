@@ -1,0 +1,43 @@
+body {
+    padding: 0 124px;
+}
+
+ul {
+    display: flex;
+    margin-top: 29px;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 24px;
+}
+
+#ShadowHand {
+
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Shadow {
+    display: flex;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #0D224E;
+}
+
+.ddd {
+    display: flex;
+
+}
+
+p {
+    text-align: center;
+
+
+}
