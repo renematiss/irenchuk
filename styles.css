@@ -49,6 +49,7 @@ li {
 .leftright {
     display: flex;
     margin-top: 77px;
+    height: 620px;
 }
 
 .takeprivacy {
@@ -81,9 +82,9 @@ button {
 }
 
 .left {
-    height: 770px;
+
     width: 35%;
-    padding: 92px 0 160px;
+    padding-top: 92px;
 }
 
 .right {
@@ -105,7 +106,7 @@ button {
     box-shadow: 5px 7px 20px #ef395aa3;
     background: rgba(255, 255, 255, 0.4);
     align-items: center;
-    padding: 44px;
+    padding: 64px;
     z-index: 1;
 }
 
@@ -183,11 +184,75 @@ button {
     font-size: 18px;
     color: #EF3959;
 }
-.arrows{
+
+.arrows {
     width: 160px;
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: 581px;
-    right: 496px,
+    top: 475px;
+    left: 48px;
+}
+
+.fa-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 15px rgba(74, 134, 255, 0.3);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    border: solid;
+    width: 768px;
+    height: 186px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    padding: 5px;
+    font-size: 50px;
+}
+
+.pcenter {
+    font-size: 18px;
+    color: #0D224E;
+}
+
+.fa-google {
+    color: #4A86FF;
+}
+
+.fa-apple {
+    color: #EF3959;
+}
+
+fa-android {
+    color: #A4C2FF;
+}
+
+.fa-windows {
+    color: #4A86FF;
+}
+.ios{
+    font-size: 50px;
 }
