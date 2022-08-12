@@ -7,21 +7,28 @@
 body {
     color: #0D224E;
     padding: 0 124px;
-    overflow: in;
+    margin-top: 24px;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
     display: flex;
-    margin-top: 29px;
+    display: flex;
+    align-items: center;
 }
 
 li {
     list-style-type: none;
-    margin-left: 34px;
+    margin-right: 24px;
+    font-size: 18px;
+    color: #0D224E;
+
 }
 
 #shadowHand {
-    margin-top: 24px;
     display: flex;
     justify-content: space-between;
 }
@@ -41,6 +48,7 @@ li {
 
 .leftright {
     display: flex;
+    margin-top: 77px;
 }
 
 .takeprivacy {
@@ -73,7 +81,6 @@ button {
 }
 
 .left {
-    margin-top: 77px;
     height: 770px;
     width: 35%;
     padding: 92px 0 160px;
@@ -91,10 +98,10 @@ button {
     border: solid #ef395abc 1px;
     box-sizing: border-box;
     position: absolute;
-    width: 236px;
-    height: 236px;
-    left: calc(50% - 256px/2 + 282px - 144px);
-    top: 120px;
+    width: 256px;
+    height: 256px;
+    right: 166px;
+    top: 43px;
     box-shadow: 5px 7px 20px #ef395aa3;
     background: rgba(255, 255, 255, 0.4);
     align-items: center;
@@ -114,10 +121,10 @@ button {
 .circle2 {
     border-radius: 50%;
     position: absolute;
-    width: 172px;
-    height: 172px;
-    left: calc(50% - 192px/2 + 288px - 144px);
-    top: 441px;
+    width: 192px;
+    height: 192px;
+    right: 192px;
+    top: 364px;
     background: rgba(255, 255, 255, 0.4);
     box-shadow: 2px 2px 15px #A4C2FF;
     backdrop-filter: blur(15px);
@@ -138,10 +145,10 @@ button {
     border: solid #ef395abc 1px;
     box-sizing: border-box;
     position: absolute;
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     right: 0px;
-    top: 273px;
+    top: 196px;
     text-align: center;
     justify-content: center;
 }
@@ -157,8 +164,8 @@ button {
     position: absolute;
     width: 160px;
     height: 160px;
-    left: calc(50% - 160px/2 + 80px - 144px);
-    top: 353px;
+    right: 416px;
+    top: 276px;
     background: rgba(255, 255, 255, 0.4);
     box-shadow: -5px 7px 20px rgba(74, 134, 255, 0.3);
     border-radius: 50%;
@@ -167,10 +174,20 @@ button {
     justify-content: center;
     align-items: center;
 }
-.text41{
+
+.text41 {
     font-size: 30px;
 }
-.text42{
+
+.text42 {
     font-size: 18px;
     color: #EF3959;
+}
+.arrows{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 581px;
+    right: 496px,
 }
