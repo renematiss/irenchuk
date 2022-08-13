@@ -68,7 +68,7 @@ li {
     color: #0D224E;
 }
 
-button {
+.button1 {
     margin-top: 64px;
     text-align: center;
     width: 156px;
@@ -110,11 +110,11 @@ button {
     z-index: 1;
 }
 
-.text11 {
+.ctext11 {
     font-size: 48px;
 }
 
-.text12 {
+.ctext12 {
     font-size: 30px;
     color: #EF3959;
 }
@@ -154,8 +154,8 @@ button {
     justify-content: center;
 }
 
-.text31,
-.text32 {
+.ctext31,
+.ctext32 {
     font-size: 18px;
     color: #4A86FF;
     margin: 16px;
@@ -176,11 +176,11 @@ button {
     align-items: center;
 }
 
-.text41 {
+.ctext41 {
     font-size: 30px;
 }
 
-.text42 {
+.ctext42 {
     font-size: 18px;
     color: #EF3959;
 }
@@ -195,7 +195,7 @@ button {
 }
 
 .fa-solid {
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
     width: 64px;
@@ -211,15 +211,26 @@ button {
     justify-content: center;
 }
 
-.center {
-    border: solid;
+.centerborder {
     width: 768px;
     height: 186px;
+    background-image: linear-gradient(to right, rgba(74, 134, 255, 1), rgba(239, 57, 89, 1));
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    background-color: #FFFFFF;
+    width: 762px;
+    height: 180px;
     border-radius: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .icons {
@@ -253,6 +264,126 @@ fa-android {
 .fa-windows {
     color: #4A86FF;
 }
-.ios{
+
+.ios {
     font-size: 50px;
+}
+
+.section5 {
+    margin-top: 131;
+    display: flex;
+    height: 424px;
+}
+
+.left5 {
+    width: 544px;
+}
+
+.text51 {
+    font-size: 48px;
+}
+
+.text52 {
+    margin-top: 32;
+    font-size: 18px;
+}
+
+.right5 {
+    position: relative;
+    width: 608;
+}
+
+.circle51 {
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    background: #A4C2FF;
+    box-shadow: 10px 10px 20px rgba(74, 134, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 192px;
+    top: 0;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.circle52 {
+    position: absolute;
+    right: 288px;
+    top: 126px;
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 20px rgba(74, 134, 255, 0.3);
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #4A86FF;
+    z-index: 1;
+}
+
+.circle53 {
+    position: absolute;
+    right: 32px;
+    top: 170px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 20px rgba(74, 134, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #4A86FF;
+    text-align: center;
+    
+}
+
+.circle54 {
+    position: absolute;
+    right: 208px;
+    bottom:0px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #4A86FF;
+    box-shadow: 10px 10px 20px rgba(74, 134, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.button2 {
+    margin-top: 64px;
+    text-align: center;
+    width: 156px;
+    height: 54px;
+    background: #EF3959;
+    box-shadow: 0px 0px 40px rgba(239, 57, 89, 0.4);
+    border-radius: 72px;
+    border-color: #EF3959;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.section6{
+    height: 516px;
+    margin-top: 256px;
+}
+.left6{
+    width: 640px;
+    height: 523;
+}
+.text61{
+    font-size: 48px;
+}
+.text62{
+    margin-top: 32px;
+    font-size: 18px;
 }
